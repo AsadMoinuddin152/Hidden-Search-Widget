@@ -28,6 +28,10 @@ body
 {
     background-color: #fff;
     border: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
     font-size: 20px;
     padding: 15px;
     height: 50px;
@@ -43,6 +47,7 @@ body
     cursor: pointer;
     font-size: 24px;
     position: absolute;
+    border-radius: 10%;
     top: 0;
     left: 0;
     height: 50px;
@@ -62,5 +67,5 @@ body
 
 .search.active .btn
 {
-    transform: translateX(248px);
+    transform: translateX(247px);
 }
